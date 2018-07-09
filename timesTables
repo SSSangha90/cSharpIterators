@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace iterationsFor.cs
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for(int i = 1; i < 13; i++) //note doing the timestable up to 12
+            {
+                //Console.WriteLine("The two times table includes " + (i * 2));*/ // ask how to concatenate i*2 for example to a string and then also display the result?//
+                Console.WriteLine((i) + "x" + (2) + "=" + (i * 2));
+            }
+            for (int i = 1; i < 13; i++)
+            {
+                //Console.WriteLine("\nThe three times table includes " + (i * 3));
+                Console.WriteLine((i) + "x" + (3) + "=" + (i * 3));
+            }
+            for (int i = 1; i < 13; i++)
+            {
+                //Console.WriteLine("\nThe four times table includes " + (i * 4));
+                Console.WriteLine((i) + "x" + (4) + "=" + (i * 4));
+            }
+        }
+    }
+}
