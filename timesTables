@@ -28,3 +28,9 @@ namespace iterationsFor.cs
         }
     }
 }
+
+//Now - write a program that tests a user on one of the times tables. If they get an answer right, tell them it's correct. If they get it wrong, tell them the right answer.
+
+    //Task 2: Adapt the previous program so that, if the user gets an answer wrong, they have to try again until they get it right. 
+
+
