@@ -10,21 +10,24 @@ namespace iterationsFor.cs
     {
         static void Main(string[] args)
         {
-            for(int i = 1; i < 13; i++) //note doing the timestable up to 12
+            Console.WriteLine("The two times table is as follows: ");//key change, moved the statement before applying the for loop, better organised, otherwise it'll loop the statement with each calculation(because it's in the function).
+            for (int i = 1; i < 13; i++) //note doing the timestable up to 12
             {
                 //Console.WriteLine("The two times table includes " + (i * 2));*/ // ask how to concatenate i*2 for example to a string and then also display the result?//
                 Console.WriteLine((i) + "x" + (2) + "=" + (i * 2));
             }
+            Console.WriteLine("\nThe three times table is as follows: ");
             for (int i = 1; i < 13; i++)
             {
                 //Console.WriteLine("\nThe three times table includes " + (i * 3));
                 Console.WriteLine((i) + "x" + (3) + "=" + (i * 3));
             }
+            Console.WriteLine("\nThe four times table is as follows: ");
             for (int i = 1; i < 13; i++)
             {
                 //Console.WriteLine("\nThe four times table includes " + (i * 4));
                 Console.WriteLine((i) + "x" + (4) + "=" + (i * 4));
-            }
+            } 
         }
     }
 }
@@ -32,5 +35,4 @@ namespace iterationsFor.cs
 //Now - write a program that tests a user on one of the times tables. If they get an answer right, tell them it's correct. If they get it wrong, tell them the right answer.
 
     //Task 2: Adapt the previous program so that, if the user gets an answer wrong, they have to try again until they get it right. 
-
 
